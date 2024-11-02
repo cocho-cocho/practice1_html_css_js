@@ -1,0 +1,140 @@
+html, body,
+ul, ol, li,
+h1, h1, h3, h4, h5, h6, p,
+form, input, div{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:"Avenir Next", "TsukuARdGothic-Regular", sans-serif;
+}
+
+li{
+    list-style:none;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+header{
+  background-color:white;
+  height:130px;
+  position:absolute;
+  z-index:10;
+  width:100%;
+
+}
+.header-top{
+  text-align: center;
+}
+.header-title{
+  font-family:"HanziPen SC";
+  display:inline-block;
+  color:rgb(12, 12, 12);
+  font-size:30px;
+}
+.fa-instagram{
+  color:rgba(0,0,0,0.6);
+  font-size: 30px;
+  display: inline-block;
+  float:right;
+  margin-top: 10px;
+  margin-right:20px;
+}
+.fa-instagram:hover{
+  color:rgba(0,0,0,0.8);
+}
+.contents :hover{
+  color:rgba(0,0,0,0.8);
+}
+
+.contents{
+  margin-left:70px;
+  font-family:'The Scientist', sans-serif;
+  font-size:24px;
+}
+
+.contents a{
+  color:rgba(0,0,0,0.5); 
+  font-size:32px;
+  width:16%;
+  padding-left:15px;
+  padding-right:15px;
+  text-align: center;
+  display:inline;
+  float:left;
+}
+
+span{
+  padding-bottom:15px;
+  font-size:10px;
+  font-family:"HanziPen SC";
+}
+span::before{         /*改行コード*/
+  content:"\A";
+  white-space:pre;  
+}
+
+.contacts{
+  height:1000px;
+  text-align: center;
+  padding-top:150px;
+  color:rgb(117, 115, 115);
+  background-image:url(contact_back-img.png);
+  background-color: rgba(255, 255, 255,0.8);
+  background-blend-mode:lighten;  /*少し明るめに設定するためのコードで，これにより透過しているように見せている*/
+  background-size:cover;
+}
+h3{
+  font-size:50px;
+  font-family:'The Scientist', sans-serif;
+}
+
+p{
+  padding-top:0px;
+  padding-bottom:20px;
+}
+
+.customer{
+  font-family:"HanziPen SC";
+
+}
+.line p{
+  margin-top:20px;
+  padding-bottom:0px;
+}
+.line input{
+  border-radius: 10px;
+  width:300px; 
+  border:1px solid rgb(117, 115, 115);
+  height:40px;
+  text-align: center;   /*入力欄を真ん中から埋めていく（自分で考えた）*/
+}
+.inquiry p{
+  margin-top:20px;
+  padding-bottom:0px;
+}
+.inquiry textarea{
+  border-radius: 10px;
+  border:1px solid rgb(117, 115, 115);
+  width:400px;
+  height:300px;
+}
+
+button{
+  font-family:"HanziPen SC";
+  border-radius: 10px;
+  background-color: rgb(222, 221, 217);
+  padding-bottom:10px;
+  width:400px;
+  height:50px;
+  margin-top:40px;
+  box-shadow: 0 7px;
+  display: inline-block;
+}
+
+button:active{
+  position:relative;
+  box-shadow:none;
+  top:7px;
+}
