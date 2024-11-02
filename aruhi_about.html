@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "ja">
+  <head>
+     <meta charset="utf-8">
+     <title>ある日。うつわ家｜about</title>
+     <link rel="stylesheet" href="utsuwa_about.css">
+     <link rel="stylesheet" href="//maxcdn.booststrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+     <link href=" https://fonts.cdnfonts.com/css/the-scientist " rel="stylesheet">
+  </head>
+  
+  <body>
+
+    <header>
+      <a class="header-title" href="file:///Users/tsukasa/mysite/aruhiutsuwaya/aruhi.html">ある日。うつわ家</a>
+      <div class="contents">
+        <div class="action about">
+          <a href="file:///Users/tsukasa/mysite/aruhiutsuwaya/aruhi_about.html">about<span>ある日。うつわ家について</span></a>
+        </div>
+        <div class="action category">
+          <a href="file:///Users/tsukasa/mysite/aruhiutsuwaya/aruhi_category.html">category<span>お取り扱い商品</span></a>
+        </div>
+        <div class="action information">
+          <a href="file:///Users/tsukasa/mysite/aruhiutsuwaya/aruhi_information.html">information<span>お知らせ</span></a>
+        </div>
+        <div class="action blog">
+          <a href="file:///Users/tsukasa/mysite/aruhiutsuwaya/aruhi_blog.html">blog<span>日誌</span></a>
+        </div>
+        <div class="action contact">
+          <a href="file:///Users/tsukasa/mysite/aruhiutsuwaya/aruhi_contact.html">contact<span>お問い合わせ</span></a>
+        </div>
+      </div>
+    </header>
+
+    <div id="about">
+      <div id="title_about">
+        <h3>about</h3>
+        <p>ある日。うつわ家について</p>
+      </div>
+      <div id="texts">
+        <p>こんにちは。ある日。うつわ家をご覧頂きありがとうございます。</p>
+
+        <p>当店は、大自然の糸島の中にある小さなお店です。</p>
+        <p>『日々のお料理、毎日の事だからこそ、楽しく、つい鼻歌を歌いたくなるようなそんなオススメの器たち。ある日。うつわに出会いませんか？』</p>
+            
+        <p>をテーマに、沢山の作家さん、窯元さんの器を取り揃えております。</p>
+            
+        <p>是非、手作りのぬくもりや、繊細な絵付けをワクワクしながらお楽しみ下さい。</p>
+            
+        <p>住所：福岡県糸島市二丈浜窪　180-1-4</p>
+            
+        <p>Open11:00〜16:00</p>
+        <p>定休日　水曜日</p>
+            
+        <p>お問い合わせは、お問い合わせ欄または，インクダグラムのDMにてお願いします。</p>
+      </div>
+    </div>
+
+    <footer></footer>
+    <!--javascriptを使ったふわっと出てくるアニメーション-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ 
+        reset:true, //戻った時にアニメーションがresetされるかどうかの処理
+        distance:"60px", //終着点からどれくらい離れているのかを指定
+        duration: 2000  //何ミリ秒で出てくるのかを指定
+      });
+      ScrollReveal().reveal("#texts",{delay:200, origin:"bottom"});  //各クラスにアニメーションの詳細を指定
+      ScrollReveal().reveal("#title_about",{delay:200, origin:"top"});
+    </script> 
+    <!--javascriptここまで-->
+		 
+
+  </body>
+</html>
+
+	
